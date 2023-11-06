@@ -75,10 +75,12 @@
 
     <p>
     <form action="giris.php">
+
         Cinsiyet
         <br><br>
         <input type="radio" name="cinsiyet" value="kadın">Kadın
         <input type="radio" name="cinsiyet" value="erkek">Erkek
+
     </form>
     </p>
 
@@ -86,11 +88,13 @@
 
     <p>
     <form action="giris.php">
+
         Hobileriniz
         <br><br>
         <input type="checkbox" name="hobi1" value="kitap">kitap
         <input type="checkbox" name="hobi2" value="film">film
         <input type="checkbox" name="hobi3" value="müzik">müzik
+
     </form>
     </p>
 
@@ -108,6 +112,7 @@
 
     <p>
     <form action="giris.php">
+
         Doğum Tarihi :
         <br><br>
         <input type="date" value="dtarihi">
@@ -119,6 +124,7 @@
 
     <p>
     <form action="giris.php">
+
         Email Girin :
         <br><br>
         <input type="email" name="eMail">
@@ -126,20 +132,107 @@
     </form>
     </p>
 
-
+    <!-- type="file" -->
 
     <p>
-    <form action="C:\Users\cemca\OneDrive\Masaüstü\flex">
+    <form action="giris.php">
+
         Bir Dosya Seçin
         <br><br>
         <input type="file" name="dosya">
 
     </form>
     </p>
+
+    <!-- type="number" -->
+
+    <p>
+    <form action="giris.php">
+
+        Adet
+        <br>
+        <input type="number" name="Adet" min="0" max="100" step="2">
+
+    </form>
+    </p>
+
+    <!-- type="range" -->
+
+    <p>
+    <form action="giris.php">
+
+        Range
+        <br>
+        <input type="range" name="adet" min="0" max="100" step="2">
+
+    </form>
+    </p>
+
+    <!-- type="search" -->
+
+    <p>
+    <form action="giris.php">
+
+        Ara
+        <br>
+        <input type="search" name="Ara">
+
+    </form>
+    </p>
+
+    <!-- value - başlangıç yada örnek değer tanımlar -->
+
+
+    <p>
+    <form action="giris.php">
+
+        Ad SOYAD
+        <br>
+        <input type="text" name="adSoyad" value="Name Surname">
+
+    </form>
+    </p>
+
+    <!-- placeholder - giriş için değer yada kopya verir -->
+
+    <p>
+    <form action="giris.php">
+
+        Ad SOYAD
+        <br>
+        <input type="text" name="adSoyad" placeholder="Ad Soyad girin">
+
+    </form>
+    </p>
+
+    <!-- required -->
+
+    <p>
+    <form action="giris.php">
+
+        Ad SOYAD
+        <br>
+        <input type="text" name="adSoyad" required="">
+
+    </form>
+    </p>
+
+    <!-- select -->
+
+    <form action="giris.php">
+
+        Şehir Seçin
+        <br>
+        <select name="sehir">
+            <option value="istanbul">İstanbul</option>
+            <option value="ankara">Ankara</option>
+            <option value="izmir">İzmir</option>
+        </select>
+
+    </form>
+    </p>
+
     
-
-
-
 </body>
 
 </html>
